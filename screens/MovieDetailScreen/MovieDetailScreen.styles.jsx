@@ -36,4 +36,14 @@ export const styles = StyleSheet.create({
     marginTop: 20,
     textAlign: "center",
   },
-});
+  imgView: {
+    justifyContent: "center",
+    alignItems: "center"
+  },
+  image: { 
+    height: 200, 
+    width: 200, 
+    resizeMode: "contain",
+    justifyContent: "center",
+    alignItems: "center" },
+},);

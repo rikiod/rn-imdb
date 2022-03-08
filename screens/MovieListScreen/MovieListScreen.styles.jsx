@@ -6,6 +6,14 @@ export const styles = StyleSheet.create({
     marginTop: StatusBar.currentHeight || 0,
     backgroundColor: "#ffffff",
   },
+  searchBar: {
+    flex: 1,
+    shadowColor: "#000",
+  },
+  searchBarContainer: {
+    flex: 1,
+    backgroundColor: "#ffffff",
+  },
   movieCell: {
     backgroundColor: "#ecf0f1",
     padding: 20,
@@ -22,8 +30,8 @@ export const styles = StyleSheet.create({
     shadowRadius: 3.84,
     elevation: 5,
   },
-  movieCellTitle: { fontFamily: "Avenir", fontSize: 22 },
-  movieCellSubtitle: { fontFamily: "Avenir", fontSize: 14 },
+  movieCellTitle: { fontFamily: "Avenir", fontSize: 22, color: "black" },
+  movieCellSubtitle: { fontFamily: "Avenir", fontSize: 14, color: "black" },
   movieCellLeft: { height: 80, width: 54 },
   movieCellImage: { height: 80, width: 54, resizeMode: "contain" },
   movieCellRight: {
